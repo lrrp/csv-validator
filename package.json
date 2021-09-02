@@ -1,12 +1,17 @@
 {
     "name": "@jbroutier/csv-validator",
     "description": "A CLI tool to validate a CSV file against a set of rules defined with JSON Schema.",
+    "homepage": "https://github.com/jbroutier/csv-validator#readme",
     "version": "1.0.0",
     "license": "MIT",
     "author": {
         "name": "Jérémie BROUTIER",
         "email": "jeremie.broutier@posteo.net",
         "url": "https://github.com/jbroutier"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jbroutier/csv-validator.git"
     },
     "engines": {
         "node": ">=12"
