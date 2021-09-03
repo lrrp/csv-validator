@@ -1,5 +1,6 @@
 [![GitHub license](https://img.shields.io/github/license/jbroutier/csv-validator)](https://github.com/jbroutier/csv-validator/blob/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/jbroutier/csv-validator?include_prereleases)](https://github.com/jbroutier/csv-validator/releases/)
+[![NPM package version](https://img.shields.io/npm/v/@jbroutier/csv-validator)](https://www.npmjs.com/package/@jbroutier/csv-validator)
 
 ## CSV validator
 
