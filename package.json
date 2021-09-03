@@ -38,5 +38,10 @@
     ],
     "bin": {
         "csv-validator": "./index.js"
-    }
+    },
+    "keywords": [
+        "csv",
+        "json schema",
+        "validator"
+    ]
 }
