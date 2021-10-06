@@ -234,5 +234,5 @@ File "people.csv" fails validation checks.
 The `-s` or `--skip-empty-lines` option allows you to ignore empty lines within the file. The file is then again considered valid.
 
 ```bash
-File "people.csv" fails validation checks.
+File "people.csv" passes validation checks.
 ```
