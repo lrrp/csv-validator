@@ -2,7 +2,7 @@
     "name": "@jbroutier/csv-validator",
     "description": "A CLI tool to validate a CSV file against a set of rules defined with JSON Schema.",
     "homepage": "https://github.com/jbroutier/csv-validator#readme",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "MIT",
     "author": {
         "name": "Jérémie BROUTIER",
@@ -24,10 +24,10 @@
         "papaparse": "^5.3.0"
     },
     "devDependencies": {
-        "eslint": "^7.32.0",
-        "eslint-config-standard": "^16.0.3",
+        "eslint": "^8.23.0",
+        "eslint-config-standard": "^17.0.0",
         "eslint-plugin-node": "^11.1.0",
-        "eslint-plugin-promise": "^5.1.0"
+        "eslint-plugin-promise": "^6.0.1"
     },
     "scripts": {
         "lint": "eslint --color \"**/*.js\""
