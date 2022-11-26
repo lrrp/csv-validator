@@ -46,7 +46,7 @@ Consider the following rules file.
     },
     "mileage": {
       "type": "integer",
-      "minimum": 0,
+      "minimum": 0
     },
     "sold": {
       "type": "boolean"
