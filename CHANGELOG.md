@@ -1,6 +1,6 @@
 # Changelog
 
-**Version 2.0.0 (2022-11-xx)**
+**Version 2.0.0 (2022-11-26)**
 
 - feat: Drop support for Node < 14.17.
 

@@ -1,6 +1,6 @@
 {
     "name": "@jbroutier/csv-validator",
-    "version": "1.0.2",
+    "version": "2.0.0",
     "description": "A CLI tool to validate a CSV file against a set of rules defined with JSON Schema.",
     "keywords": [
         "csv",
