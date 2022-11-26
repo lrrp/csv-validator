@@ -15,14 +15,17 @@ jobs:
         with:
           node-version: '16.8'
 
-      - name: Cache Node modules
-        id: node-cache
+      - name: Get npm cache directory
+        id: npm-cache-dir
+        run: echo "dir=$(npm get cache)" >> $GITHUB_OUTPUT
+
+      - name: Cache dependencies
+        id: npm-cache
         uses: actions/cache@v3
         with:
-          path: node_modules
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+          path: ${{ steps.npm-cache-dir.outputs.dir }}
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-npm-
 
       - name: Install dependencies
         if: steps.node-cache.outputs.cache-hit != 'true'
