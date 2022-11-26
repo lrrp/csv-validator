@@ -15,11 +15,11 @@ Validate a CSV file against a set of rules defined with JSON Schema.
 
 Options:
   -V, --version              output the version number
-  -a, --abort-early          move to the next line as soon as an error is encountered (default: false)
-  -d, --dynamic-typing       convert data into the appropriate type according to their format (default: false)
+  -a, --abort-early          move to the next line as soon as an error is encountered
+  -d, --dynamic-typing       convert data into the appropriate type according to their format
   -e, --encoding <encoding>  specify the encoding of the files (default: "utf8")
-  -q, --quiet                hide the list of errors encountered (default: false)
-  -s, --skip-empty-lines     ignore empty lines in the CSV file (default: false)
+  -q, --quiet                hide the list of errors encountered
+  -s, --skip-empty-lines     ignore empty lines in the CSV file
   -h, --help                 display help for command
 ```
 
