@@ -1,20 +1,32 @@
 {
     "name": "@jbroutier/csv-validator",
-    "description": "A CLI tool to validate a CSV file against a set of rules defined with JSON Schema.",
-    "homepage": "https://github.com/jbroutier/csv-validator#readme",
     "version": "1.0.2",
+    "description": "A CLI tool to validate a CSV file against a set of rules defined with JSON Schema.",
+    "keywords": [
+        "csv",
+        "json schema",
+        "validator"
+    ],
+    "homepage": "https://github.com/jbroutier/csv-validator#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jbroutier/csv-validator.git"
+    },
     "license": "MIT",
     "author": {
         "name": "Jérémie BROUTIER",
         "email": "jeremie.broutier@posteo.net",
         "url": "https://github.com/jbroutier"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/jbroutier/csv-validator.git"
+    "bin": {
+        "csv-validator": "./index.js"
     },
-    "engines": {
-        "node": ">=12"
+    "files": [
+        "index.js",
+        "src/*.js"
+    ],
+    "scripts": {
+        "lint": "eslint --color \"**/*.js\""
     },
     "dependencies": {
         "colors": "^1.4.0",
@@ -29,19 +41,7 @@
         "eslint-plugin-node": "^11.1.0",
         "eslint-plugin-promise": "^6.0.1"
     },
-    "scripts": {
-        "lint": "eslint --color \"**/*.js\""
-    },
-    "files": [
-        "index.js",
-        "src/*.js"
-    ],
-    "bin": {
-        "csv-validator": "./index.js"
-    },
-    "keywords": [
-        "csv",
-        "json schema",
-        "validator"
-    ]
+    "engines": {
+        "node": ">=12"
+    }
 }
