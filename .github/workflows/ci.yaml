@@ -1,6 +1,9 @@
 name: CI
 on: [ push, pull_request ]
 
+env:
+  NODE_VERSION: '16.8'
+
 jobs:
   eslint:
     name: ESLint
@@ -13,7 +16,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '16.8'
+          node-version: ${{ env.NODE_VERSION }}
 
       - name: Get npm cache directory
         id: npm-cache-dir
