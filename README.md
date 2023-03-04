@@ -1,5 +1,5 @@
+[![CI](https://github.com/jbroutier/csv-validator/actions/workflows/ci.yaml/badge.svg)](https://github.com/jbroutier/csv-validator/actions/workflows/ci.yaml)
 [![GitHub license](https://img.shields.io/github/license/jbroutier/csv-validator)](https://github.com/jbroutier/csv-validator/blob/main/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/jbroutier/csv-validator?include_prereleases)](https://github.com/jbroutier/csv-validator/releases/)
 [![NPM package version](https://img.shields.io/npm/v/@jbroutier/csv-validator)](https://www.npmjs.com/package/@jbroutier/csv-validator)
 
 ## CSV validator
